@@ -1,0 +1,26 @@
+{
+    "name": "goye/joshua-project",
+    "description": "A client for the Joshua Project api.",
+    "version": "1.0.0",
+    "type": "package",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "GoYe\\JoshuaProject\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Joseph Raub",
+            "email": "joseph@raubstudios.com",
+            "homepage": "https://www.raubstudios.com"
+        }
+    ],
+    "require": {
+        "illuminate/collections": "^11.17",
+        "nesbot/carbon": "^3.7",
+        "illuminate/contracts": "^11.17",
+        "illuminate/support": "^11.17",
+        "guzzlehttp/guzzle": "^7.9"
+    }
+}
